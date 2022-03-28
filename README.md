@@ -70,3 +70,27 @@ Payments
 users
 Price Groupings
 Discounts
+
+## System Requirement
+- XAMPP PHP 7.3
+- Node.js
+- Yarn
+- Composer
+
+##Installation Steps
+
+- Clone Project into htdocs folder of XAMPP server
+- create database with name "e_commerce"
+- In the terminal Run
+    - composer install
+    - yarn install
+    - yarn run dev
+    - copy .env.example .env
+    - php artisan key:generate
+    - php artisan migrate --seed
+    - php artisan serve
+    
+- credentials:
+    - username: admin@admin.com
+    - password: password
+    
